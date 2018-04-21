@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*header start*/
+header{
+    min-height: 100px;
+    background-color: #121B2A;
+    width: 100%;
+    
+}
+.wrapper {
+    min-height: 100px;
+    width: 80%;
+    margin: 0 auto;
+    
+    overflow: hidden;
+}
+
+.logo {
+    min-height: 100px;
+    width: 20%;
+    float: left;
+    margin-top: 3px;
+}
+.logo img{
+    width: 100%;
+    
+}
+
+.nav {
+min-height: 100px;
+    width: 50%;
+    float: right;
+}
+.nav ul{
+    float: right;
+}
+.nav ul li{
+    
+    float: left;
+    list-style: none;
+    
+    
+    
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    margin-top: 50px;
+    color: white;
+    transition: 1.2s;
+    
+}
+.nav ul li:last-child a{
+    padding-right: 0;
+    
+}
+.nav ul li a:hover{
+    color: #0078BD;
+    
+    
+}
+
+
+
+
+/*header end*/
+/*banner start*/
+
+.banner{
+    background-image:url(../img/background-blur-bokeh-834894.jpg) ;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 400px;
+background-size: cover;
+    background-position: center;
+    
+    
+    
+}
+.banner-content{
+    width: 50%;
+    margin-top: 150px;
+    color: white;
+}
+.banner-content h2{
+    font-size: 40px;
+    
+}
+.banner-content h1{
+    color: #0175B7;
+    font-size: 50px;
+    text-transform:capitalize;
+}
+.banner-content p{
+    font-size: 24px;
+}
+.banner-content button{
+    padding: 5px 23px;
+    font-size: 31px;
+    border:none;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+
+
+
+
+/*banner end*/
+
+
+/*service start:*/
+
+.service{
+    
+    background-color: #121B2C;
+    overflow: hidden;
+    min-height: 150px;
+    padding: 50px 0px;
+}
+.wrapper_two{
+     min-height: 200px;
+    width: 85%;
+    
+    margin: 0 auto;
+    
+    
+}
+.services{
+    overflow: hidden;
+    
+}
+.single{
+    min-height: 150px;
+    float: left;
+    width: 30%;
+    border-right: 1px solid white;
+    padding: 10px 18px;
+    
+    
+}
+.single:last-child{
+    border: none;
+    
+}
+.single-header{
+    min-height: 50px;
+    overflow: hidden;
+    min-height: 
+    
+}
+.logo2{
+    width: 30%;
+    float: left;
+    
+    
+}
+.logo2 img{
+    
+    width: 100%;
+}
+.single-text{
+    float: left;
+    padding: 45px 0px;
+    width: 60%;
+    
+    
+}
+.single-text h2{
+    
+    color:white;
+    font-size: 25px;
+    
+}
+.single-text h1{
+    color: #026FAE;
+    font-size: 32px;
+    
+}
+.single-content{
+min-height: 150px;
+    width: 100%
+        
+    
+}
+.single-content p {
+    font-size: 18px;
+    color: white;
+    margin-left: 5px;
+    
+}
+
+/*service end*/
+/*service2 start*/
+
+.service2{
+    
+    min-height: 250px;
+    background-color: #040811;
+    width: 100%;
+    
+}
+.wrapper_three{
+    min-height: 250px;
+    width: 80%;
+    margin: 0 auto;
+    
+    
+}
+.single2{
+    
+    float: left;
+    min-height: 250px;
+    width: 30%;
+    
+    padding: 15px;
+}
+.single-header2{
+    margin-top: 20px;
+    padding: 10px;
+    min-height: 30px;
+    width: 100%;
+    
+}
+.single-header2 h2{
+    float: left;
+    color: white;
+    padding: 4px;
+    
+}
+.single-header2 h1{
+    float: left;
+    padding: 4px;
+    color: #0071B3;
+    
+}
+.single-content2{
+    min-height: 100px;
+    margin-left: 15px;
+    
+    
+}
+.single-content2 p{
+    line-height: 20px;
+    color: white;
+}
+
+.single-3-image{
+    float: left;
+    width: 35%;
+    min-height: 160px;
+    
+}
+.single-3-image img{
+    width: 100%;
+    min-height: 140px;
+    
+}
+.single-3-right{
+ float: left;
+    min-height: 160px;
+    width: 55%;
+    margin-top: 20px;
+}
+.single-3-right h2{
+    color: white;
+    
+}
+.single-3-right h1{
+    color: #0074B8;
+    font-size: 27px;
+    
+}
+.single-3-right button{
+    
+font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+/*service2 end*/
+
+.footer{
+    min-height: 200px;
+    background-color: #121B2C; 
+    width: 100%;
+    
+}
+.wrapper4{
+    min-height: 150px;
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.footer-left{
+    float: left;
+min-height: 150px;
+    width: 60%;
+    
+}
+.footer-left ul{
+    padding: 10px 0px;
+}
+.footer-left ul li{
+    float: left;
+    padding: 0px 10px;
+    list-style: none;
+    
+}
+.footer-left ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+.footer-left a{
+    padding: 20px 0px;
+    color: aliceblue;
+    
+}
+.footer-mid{
+    float: left;
+    min-height: 150px;
+    margin: 0 auto;
+    width: 20%;
+    
+}
+.footer-mid h1{
+    text-align: center;
+    color: #414955;
+    font-size: 40px;
+    padding: 30px 0px;
+    
+}
+.footer-right{
+    
+    
+}
+
+
+
+
